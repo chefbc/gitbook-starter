@@ -4,24 +4,14 @@ const baseTheme = {
   },
 };
 
-
-/*
-a
-dark purple - #873bf4 
-ligth purple #c4a1ff
-
-lgrey #e8e8e8 #f0f2f5
-
-*/
-
 const lightTheme = {
   ...baseTheme,
   colors: {
     background: '#fff',
-    heading: '#fafafa',
-    text: '#873bf4',
+    heading: '#000',
+    text: '#3B454E',
     preFormattedText: 'rgb(245, 247, 249)',
-    link: '#873bf4',
+    link: '#c4a1ff',
   },
 };
 
