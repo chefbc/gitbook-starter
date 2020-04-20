@@ -226,12 +226,12 @@ export const baseStyles = injectGlobal`
     font-size: 16px;
     line-height: 1.5;
     font-weight: 300;
-    color: #fff !important;
+    color: #3B454E !important;
     margin-top: 16px;
     text-transform: uppercase;
   }
   .headerTitle a {
-    color: #fff;
+    color: #3B454E;
   }
 
   .headerTitle a:hover {
@@ -298,7 +298,7 @@ export const baseStyles = injectGlobal`
   }
   .navBarUL li a {
     font-family: 'Roboto';
-    color: #3B454E !important;
+    color: #3B454E !important;  
     font-size: 16px;
     font-weight: 500;
     line-height: 1em;
