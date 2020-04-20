@@ -154,11 +154,11 @@ export const baseStyles = injectGlobal`
     border: none;
   }
   .formElement svg path {
-    fill: #2fd2c5;
+    fill: #663399;
   }
   .searchInput {
     width: 100%;
-    background-color: rgba(28,211,198,.12) !important;
+    background-color: rgba(102, 51, 153,.12) !important;
     border-width: 0 !important;
     color: #C2C2C2;
     padding: 10px;
@@ -298,7 +298,7 @@ export const baseStyles = injectGlobal`
   }
   .navBarUL li a {
     font-family: 'Roboto';
-    color: #3B454E !important;  
+    color: #3B454E !important;
     font-size: 16px;
     font-weight: 500;
     line-height: 1em;
@@ -320,7 +320,7 @@ export const baseStyles = injectGlobal`
     border: 0 !important;
     background-color: rgb(245, 247, 249); /* !important; */
   }
-  
+
   blockquote {
     color: rgb(116, 129, 141);
     margin: 0px 0px 24px;
