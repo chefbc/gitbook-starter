@@ -298,7 +298,7 @@ export const baseStyles = injectGlobal`
   }
   .navBarUL li a {
     font-family: 'Roboto';
-    color: #fff !important;
+    color: #3B454E !important;
     font-size: 16px;
     font-weight: 500;
     line-height: 1em;
