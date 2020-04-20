@@ -26,10 +26,11 @@ const config = {
   sidebar: {
     forcedNavOrder: [
       '/introduction', // add trailing slash if enabled above
-      '/codeblock',
+      '/snippets',
     ],
     collapsedNav: [
-      '/codeblock', // add trailing slash if enabled above
+      '/snippets', // add trailing slash if enabled above
+      '/gcp',      // add trailing slash if enabled above
     ],
     links: [{ text: 'Hasura', link: 'https://hasura.io' }],
     frontline: false,
