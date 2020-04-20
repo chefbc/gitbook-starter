@@ -6,31 +6,18 @@ const config = {
     trailingSlash: false,
   },
   header: {
-    logo: 'https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/brand.svg',
+    logo: '',
     logoLink: 'https://hasura.io/learn/',
     title:
-      "<a href='https://hasura.io/learn/'><img class='img-responsive' src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/learn-logo.svg' alt='Learn logo' /></a>",
-    githubUrl: 'https://github.com/hasura/gatsby-gitbook-boilerplate',
+      "<a href='https://hasura.io/learn/'>Website Title Here</a>",
+    githubUrl: '',
     helpUrl: '',
     tweetText: '',
-    social: `<li>
-		    <a href="https://twitter.com/hasurahq" target="_blank" rel="noopener">
-		      <div class="twitterBtn">
-		        <img src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/twitter-brands-block.svg' alt={'Discord'}/>
-		      </div>
-		    </a>
-		  </li>
-			<li>
-		    <a href="https://discordapp.com/invite/hasura" target="_blank" rel="noopener">
-		      <div class="discordBtn">
-		        <img src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/discord-brands-block.svg' alt={'Discord'}/>
-		      </div>
-		    </a>
-		  </li>`,
-    links: [{ text: '', link: '' }],
+    social: ``,
+    links: [{ text: 'LinkOne', link: 'https://hasura.io/' },{ text: 'LinkTwo', link: 'https://hasura.io/' },{ text: 'LinkThere', link: 'https://hasura.io/' }],
     search: {
       enabled: false,
-      indexName: '',
+      indexName: 'gitbook',
       algoliaAppId: process.env.GATSBY_ALGOLIA_APP_ID,
       algoliaSearchKey: process.env.GATSBY_ALGOLIA_SEARCH_KEY,
       algoliaAdminKey: process.env.ALGOLIA_ADMIN_KEY,
@@ -48,7 +35,7 @@ const config = {
     frontline: false,
     ignoreIndex: true,
     title:
-      "<a href='https://hasura.io/learn/'>graphql </a><div class='greenCircle'></div><a href='https://hasura.io/learn/graphql/react/introduction/'>react</a>",
+      "",
   },
   siteMetadata: {
     title: 'Gatsby Gitbook Boilerplate | Hasura',

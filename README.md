@@ -1,5 +1,5 @@
 # gatsby-gitbook-starter
-
+#
 Kick off your project with this starter to create a powerful/flexible docs/tutorial web apps.
 
 ![gatsby-gitbook-starter](https://graphql-engine-cdn.hasura.io/learn-hasura/gatsby-gitbook-starter/assets/documentation_app_blog.png)
