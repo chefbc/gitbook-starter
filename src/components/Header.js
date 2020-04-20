@@ -76,7 +76,7 @@ const Header = ({ location, isDarkThemeActive, toggleActiveTheme }) => (
       }
     `}
     render={data => {
-      const logoImg = require('./images/icons8-stack.png');
+      const logoImg = require('./images/icons8-stack-60.png');
 
       const twitter = require('./images/twitter.svg');
 

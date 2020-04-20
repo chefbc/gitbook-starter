@@ -6,7 +6,7 @@ const config = {
     trailingSlash: false,
   },
   header: {
-    logo: '',
+    logo: './images/icons8-stack-60.png',
     logoLink: 'https://hasura.io/learn/',
     title:
       "<a href='https://hasura.io/learn/'>Website Title Here</a>",
