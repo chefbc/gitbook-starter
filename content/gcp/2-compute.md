@@ -1,44 +1,32 @@
 ---
-title: "SSH"
-metaTitle: "Snippets for SSH"
-metaDescription: "SSH related code snippets"
+title: "Compute"
+metaTitle: "This is the title tag of this page"
+metaDescription: "This is the meta description"
 ---
 
+Some introduction text. Lists out all the headings from h1 to h6. Easy to customise.
 
-## Manage SSH-keys with the SSH-agent
+# Heading H1
+Heading 1 text
 
-List the ssh-keys currently available in the ssh-agent
-```bash
-ssh-add -l
-```
+## Heading H2
+Heading 2 text
 
-Add the ssh-key to the ssh-agent
-```bash
-ssh-add -K ~/.ssh/id_rsa
-```
+### Heading H3
+Heading 3 text
 
-To remove a key from the ssh-agent, the -d option can be used as the example below shows. This identifies the key to be removed.
-```bash
-ssh-add -d ~/.ssh/id_rsa
-```
+#### Heading H4
+Heading 4 text
 
-Removing all private keys from the ssh-agent can be achieved with the -D option as shown below.
-```bash
-ssh-add -D
-```
+##### Heading H5
+Heading 5 text
 
-## SSH Tunnel
-Setup SSH tunnel
-```bash
-ssh -i ~/.ssh/id_rsa -L <LOCAL_PORT>:<DEST_SERVER>:<DEST_PORT> user@<JUMP_SERVER> cat -
-```
+###### Heading H6
+Heading 6 text
 
-SSH via tunnel
-```bash
-ssh -i ~/.ssh/id_rsa user@localhost -p <LOCAL_PORT>
-```
-
-SCP via tunnel
-```bash
-scp -i -i ~/.ssh/id_rsa file.txt user@localhost:/tmp/. -p <LOCAL_PORT>
-```
+## Lists
+- Item 1
+- Item 2
+- Item 3
+- Item 4
+- Item 5
