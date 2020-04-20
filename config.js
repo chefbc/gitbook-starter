@@ -16,7 +16,7 @@ const config = {
     social: ``,
     links: [{ text: 'LinkOne', link: 'https://hasura.io/' },{ text: 'LinkTwo', link: 'https://hasura.io/' },{ text: 'LinkThere', link: 'https://hasura.io/' }],
     search: {
-      enabled: true,
+      enabled: false;
       indexName: 'gitbook',
       algoliaAppId: process.env.GATSBY_ALGOLIA_APP_ID,
       algoliaSearchKey: process.env.GATSBY_ALGOLIA_SEARCH_KEY,
