@@ -14,7 +14,7 @@ const config = {
     helpUrl: '',
     tweetText: '',
     social: ``,
-    links: [{ text: 'LinkOne', link: 'https://hasura.io/' },{ text: 'LinkTwo', link: 'https://hasura.io/' },{ text: 'LinkThere', link: 'https://hasura.io/' }],
+    links: [{ text: 'One', link: 'https://hasura.io/' },{ text: 'Two', link: 'https://hasura.io/' },{ text: 'There', link: 'https://hasura.io/' }],
     search: {
       enabled: true,
       indexName: 'gitbook',
@@ -32,7 +32,7 @@ const config = {
       '/snippets', // add trailing slash if enabled above
       '/gcp',      // add trailing slash if enabled above
     ],
-    links: [{ text: 'Hasura', link: 'https://hasura.io' }],
+    links: [{ text: 'External Link', link: 'https://hasura.io' }],
     frontline: false,
     ignoreIndex: true,
     title:
