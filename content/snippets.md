@@ -4,23 +4,4 @@ metaTitle: "Helpful Code Snippets"
 metaDescription: "Helpful Code Snippets"
 ---
 
-The following is a code block with JavaScript language syntax highlighting.
-
-```javascript
-import React from 'react';
-```
-
-Supports multiple languages.
-
-The following is a code block with diff. Lines with `+` highlighted in green shade indicating an addition. Lines with `-` highlighted in red shade indicating a deletion.
-
-```javascript
-- const data = ['1','2'];
-+ const data = [1,2];
-```
-
-## Live Editing example
-
-```javascript react-live=true
-<button className={'btn btn-default'}>Change my text</button>
-```
+Snippet is a programming term for a small region of re-usable source code, machine code, or text. Ordinarily, these are formally defined operative units to incorporate into larger programming modules. Snippet management is a feature of some text editors, program source code editors, IDEs, and related software. [Wikipedia](https://en.wikipedia.org/wiki/Snippet_(programming))
